@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+.env
+.env.*
+.arbVenv
+*.key
+*.pem
+id_rsa*
+secrets*
+credentials*
+# runtime data — fetch from the private polymarket-data repo
+*.json
+*.pkl
+*.jsonl
+*.csv
+*.gz
+*.parquet
+# logs / scratch
+*.log
+*.out
+*.bak.*
+.DS_Store
