@@ -35,8 +35,8 @@ import json, math, sys, os, pickle, random, time, shutil
 from collections import defaultdict
 from datetime import datetime
 
-sys.path.insert(0, '/home/polybot/polymarket-bot')
-os.chdir('/home/polybot/polymarket-bot/data')
+sys.path.insert(0, '.')
+os.chdir('./data')
 
 import numpy as np
 np.random.seed(42)

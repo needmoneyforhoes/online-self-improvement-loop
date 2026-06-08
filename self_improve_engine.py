@@ -40,7 +40,7 @@ OUTPUT FILES:
 import json, math, sys, os, pickle, random, time
 from collections import defaultdict, deque
 
-sys.path.insert(0, '/home/polybot/polymarket-bot')
+sys.path.insert(0, '.')
 import numpy as np
 from sklearn.linear_model import SGDClassifier
 from sklearn.preprocessing import StandardScaler
