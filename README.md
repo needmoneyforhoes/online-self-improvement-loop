@@ -48,3 +48,8 @@ update_with_outcome(strategy, side, features, won, hypo_pnl)  # after settle
 ## Data
 
 `self_improve_loop.py` runs from `$DATA_DIR`. Both scripts read `market_history.jsonl` (tick traces) and `market_recap_history.jsonl` (logged fires) from there. These come from the private `polymarket-data` repo. Model and state artifacts (`*.pkl`, `deploy_map.json`, `*.jsonl`) are runtime outputs and are git-ignored.
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/online-self-improvement-loop/issues/new). Pull requests are welcome too.
